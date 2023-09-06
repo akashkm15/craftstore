@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500;600&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+#sale-txt {
+   background: #ddd5c5;
+   padding-top: 20vh;
+   margin-left: -62px;
+}
+
+#sale-txt h3 {
+   font-size: 3em;
+}
+
+#sale-txt h4 {
+   font-size: 2em;
+}
+
+
+#sale-btn {
+   background: black;
+   color: whitesmoke;
+   height: 8vh;
+   font-size: large;
+   width: 125px;
+   padding: 15px;
+}
+
+#sale-btn:hover {
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+}
+
+#ser {
+   border: 1px solid #e9eaec;
+   padding: 15px !important;
+   margin: 20px 70px;
+}
+
+.tp-feature-content-2 h3 {
+   font-size: 18px !important;
+   margin: 0 !important;
+}
+
+.tp-feature-content-2 p {
+   font-size: small !important;
+}
+
+.bor-left {
+   border-left: 1px solid #e9eaec;
+   padding-left: 15px !important;
+}
+
+#sandleimg {
+   display: none;
+}
+
+/* ****************************************************************************************************************** */
+@media (max-width:497px) {
+   #nav-head {
+      margin-top: 0px !important;
+      height: 27px !important;
+   }
+
+   #sale-row {
+      display: flex;
+      flex-direction: column;
+      align-content: space-around;
+      align-items: baseline;
+   }
+
+   #sale-img-col {
+      width: 380px;
+      padding: 0 !important;
+   }
+
+   #sale-txt {
+      background: #ddd5c5;
+      padding-top: 40px !important;
+      width: 100%;
+      padding-bottom: 45px !important;
+   }
+
+
+   #sale-btn {
+      background: black;
+      color: whitesmoke;
+      height: 6vh;
+      font-size: large;
+      padding: 2px;
+      width: 125px;
+   }
+
+   .mob-v {
+      margin: 18px;
+   }
+
+   #bagimg {
+      display: none;
+   }
+
+   #sandleimg {
+      display: none;
+   }
+
+   #explorefirst {
+      display: none !important;
+   }
+
+   .product-collection .collection-thumbnail img {
+      height: 100% !important;
+   }
+
+   a.axil-btn.btn-size-md,
+   button.axil-btn.btn-size-md {
+      padding: 10px 6px 6px !important;
+   }
+
+   #winter {
+      margin-top: 60px !important;
+      font-size: revert;
+   }
+
+   #winter-txt {
+      font-size: 14px;
+   }
+
+   #winter-price {
+      font-size: 20px;
+   }
+
+   #winter-btn {
+      visibility: hidden;
+   }
+
+   .section-title-border.slider-section-title .title {
+      padding: 0px !important;
+      text-align: center;
+   }
+
+   .card {
+      width: 100% !important;
+   }
+
+   .section-title-border {
+      border-bottom: 1px solid #ebebeb;
+      margin-bottom: 11px !important;
+      padding-bottom: 0px !important;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 0;
+   }
+
+   #mob-view-row {
+      margin-left: 25px;
+      margin-right: 25px;
+   }
+
+   #ser {
+      display: none;
+   }
+}
